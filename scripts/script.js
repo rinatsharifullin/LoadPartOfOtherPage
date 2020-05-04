@@ -1,6 +1,6 @@
 $(document).ready(function(){
     console.log('loaded');
     $('#loadMe').click(function(){
-        $('#here').load('../dif.html');
+        $('#here').load('https://raw.githubusercontent.com/rinatsharifullin/LoadPartOfOtherPage/master/dif.html');
     });
 });
